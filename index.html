@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Resume</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    async function loadResume() {
+      const response = await fetch('resume.md');  // relative path
+      const md = await response.text();
+      // console.log(marked.parse(md))
+      const resumeContainer = document.getElementById('resume');
+      resumeContainer.innerHTML = marked.parse(md);
+    }
+    window.onload = loadResume;
+    </script>
+</head>
+<body>
+
+<div id="resume">
+  <!-- <section class="page">
+    <h1>John Doe</h1>
+    <h2>Frontend Developer</h2>
+    <p>Email: john.doe@example.com</p>
+    <p>Phone: +123 456 7890</p>
+    <hr>
+
+    <h3>Experience</h3>
+    <ul>
+      <li><strong>Company A</strong> - Frontend Developer (2021-Present)</li>
+      <li><strong>Company B</strong> - Junior Developer (2019-2021)</li>
+    </ul>
+
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React, Vue, Angular</li>
+      <li>Responsive Design</li>
+    </ul>
+  </section>
+
+  <section class="page">
+    <h3>Education</h3>
+    <ul>
+      <li><strong>University of Web</strong> - B.Sc. Computer Science (2015-2019)</li>
+    </ul>
+
+    <h3>Projects</h3>
+    <ul>
+      <li><strong>Portfolio Website</strong> - A personal portfolio built with React.</li>
+      <li><strong>Resume Generator</strong> - Create resumes easily with a simple form.</li>
+    </ul>
+
+    <h3>Languages</h3>
+    <ul>
+      <li>English (Fluent)</li>
+      <li>Spanish (Intermediate)</li>
+    </ul>
+  </section> -->
+</div>
+
+<button id="downloadBtn">Download PDF</button>
+
+<script src="script.js"></script>
+</body>
+</html>
