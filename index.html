@@ -12,7 +12,10 @@
       const md = await response.text();
       // console.log(marked.parse(md))
       const resumeContainer = document.getElementById('resume');
-      resumeContainer.innerHTML = marked.parse(md);
+      const page = document.createElement('section');
+      page.classList.add('page')
+      resumeContainer.appendChild(page)
+      page.innerHTML = marked.parse(md.trim());
     }
     window.onload = loadResume;
     </script>
