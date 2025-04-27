@@ -1,15 +1,16 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
-    background: #f0f0f0;
+    background: #7e7e7e;
     color: #333;
   }
   
   #resume {
     background: white;
-    padding: 40px;
+    padding: 0px;
     max-width: 800px;
-    margin: auto;
+    margin: 0;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
   
   }
@@ -20,10 +21,32 @@ body {
   }
   
   /* Optional: if you really need manual breaks later, you can still add a "page-break" class separately */
-  .page-break {
+  /* .page-break {
     page-break-before: always;
+  } */
+  body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
   }
   
+  #resume {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left; /* make sure text starts at top */
+  }
+  
+  .page-break {
+    display: block;
+    page-break-before: always;
+    break-before: page;
+  }
   h1 {
     margin-bottom: 0;
   }
@@ -57,4 +80,3 @@ body {
   #downloadBtn:hover {
     background-color: #0056b3;
   }
-  
