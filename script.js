@@ -1,5 +1,3 @@
-// We will use html2pdf.js for simple client-side PDF generation
-// Load the library dynamically
 (function loadHtml2Pdf() {
   const script = document.createElement("script");
   script.src =
@@ -60,3 +58,20 @@ function initDownloadButton() {
       });
   });
 }
+
+async function loadResume() {
+  const response = await fetch("resume.md"); // relative path
+  const md = await response.text();
+  const resumeContainer = document.getElementById("resume");
+  const page = document.createElement("section");
+  page.classList.add("page");
+  resumeContainer.appendChild(page);
+  page.innerHTML = marked.parse(md.trim());
+  const resume = document.getElementById("resume");
+  resume.innerHTML = resume.innerHTML.replace(
+    /<!--\s*pagebreak\s*-->/g,
+    '<div class="html2pdf__page-break"></div>'
+  );
+}
+
+window.onload = loadResume;

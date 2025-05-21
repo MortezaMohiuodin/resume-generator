@@ -1,90 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Resume</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script>
-    async function loadResume() {
-      const response = await fetch('resume.md');  // relative path
-      const md = await response.text();
-      // console.log(marked.parse(md))
-      const resumeContainer = document.getElementById('resume');
-      const page = document.createElement('section');
-      page.classList.add('page')
-      resumeContainer.appendChild(page)
-      page.innerHTML = marked.parse(md.trim());
-      const resume = document.getElementById("resume");
-      resume.innerHTML = resume.innerHTML.replace(/<!--\s*pagebreak\s*-->/g, '<div class="html2pdf__page-break"></div>');
-    }
-    window.onload = loadResume;
-    </script>
-</head>
-<body>
-
-<div id="resume">
-  <section class="page">
-    <h1>John Doe</h1>
-    <h2>Frontend Developer</h2>
-    <p>Email: john.doe@example.com</p>
-    <p>Phone: +123 456 7890</p>
-    <hr>
-
-    <h3>Experience</h3>
-    <ul>
-      <li><strong>Company A</strong> - Frontend Developer (2021-Present)</li>
-      <li><strong>Company B</strong> - Junior Developer (2019-2021)</li>
-    </ul>
-
-    <h3>Skills</h3>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>React, Vue, Angular</li>
-      <li>Responsive Design</li>
-    </ul>
-    <h1>John Doe</h1>
-    <h2>Frontend Developer</h2>
-    <p>Email: john.doe@example.com</p>
-    <p>Phone: +123 456 7890</p>
-    <hr>
-
-    <h3>Experience</h3>
-    <ul>
-      <li><strong>Company A</strong> - Frontend Developer (2021-Present)</li>
-      <li><strong>Company B</strong> - Junior Developer (2019-2021)</li>
-    </ul>
-
-    <h3>Skills</h3>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>React, Vue, Angular</li>
-      <li>Responsive Design</li>
-    </ul>
-    <h1>John Doe</h1>
-    <h2>Frontend Developer</h2>
-    <p>Email: john.doe@example.com</p>
-    <p>Phone: +123 456 7890</p>
-    <hr>
-    <div class="html2pdf__page-break"></div>
-    <h3>Experience</h3>
-    <ul>
-      <li><strong>Company A</strong> - Frontend Developer (2021-Present)</li>
-      <li><strong>Company B</strong> - Junior Developer (2019-2021)</li>
-    </ul>
-
-    <h3>Skills</h3>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>React, Vue, Angular</li>
-      <li>Responsive Design</li>
-    </ul>
-  </section>
-</div>
-
-<button id="downloadBtn">Download PDF</button>
-
-<script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+    <div id="resume">
+      <section class="page"></section>
+    </div>
+    <button id="downloadBtn">Download PDF</button>
+    <script src="script.js"></script>
+  </body>
 </html>

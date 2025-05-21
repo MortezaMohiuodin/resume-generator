@@ -21,8 +21,6 @@ Passionate Frontend Developer with 5+ years of experience building responsive an
 
 ---
 
-<!-- pagebreak -->
-
 ## Experience
 
 ### Frontend Developer — **Google**
@@ -52,9 +50,10 @@ _2020 – Present_
 **Frontend Developer**  
 [Email](mailto:john.doe@example.com) | [LinkedIn](https://linkedin.com/in/johndoe) | [GitHub](https://github.com/johndoe)
 
+<!-- pagebreak -->
 ---
 
-<!-- pagebreak -->
+
 
 ## Summary
 
