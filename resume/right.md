@@ -28,9 +28,6 @@ July 2020 - Apr 2021
 build systems
 - Resolved critical SEO issues and optimized performance.
 
-
-<!-- pagebreak -->
-
 ### Frontend Developer — **Signal Co**
 
 May 2018 - May 2020

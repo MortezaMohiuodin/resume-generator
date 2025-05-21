@@ -60,9 +60,9 @@ function initDownloadButton() {
 }
 
 async function loadResume() {
-  const headingResponse = await fetch("heading.md");
-  const leftResponse = await fetch("left.md"); // relative path
-  const rightResponse = await fetch("right.md"); // relative path
+  const headingResponse = await fetch("resume/heading.md");
+  const leftResponse = await fetch("resume/left.md"); // relative path
+  const rightResponse = await fetch("resume/right.md"); // relative path
 
   // relative path
   const headingMd = await headingResponse.text();
