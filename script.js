@@ -60,13 +60,27 @@ function initDownloadButton() {
 }
 
 async function loadResume() {
-  const response = await fetch("resume.md"); // relative path
-  const md = await response.text();
+  const headingResponse = await fetch("heading.md");
+  const leftResponse = await fetch("left.md"); // relative path
+  const rightResponse = await fetch("right.md"); // relative path
+
+  // relative path
+  const headingMd = await headingResponse.text();
+  const leftMd = await leftResponse.text();
+  const rightMd = await rightResponse.text();
+
   const resumeContainer = document.getElementById("resume");
   const page = document.createElement("section");
+  const heading = document.querySelector("#heading");
+  const left = document.querySelector("#left");
+  const right = document.querySelector("#right");
+
   page.classList.add("page");
   resumeContainer.appendChild(page);
-  page.innerHTML = marked.parse(md.trim());
+  heading.innerHTML = marked.parse(headingMd.trim());
+  left.innerHTML = marked.parse(leftMd.trim());
+  right.innerHTML = marked.parse(rightMd.trim());
+
   const resume = document.getElementById("resume");
   resume.innerHTML = resume.innerHTML.replace(
     /<!--\s*pagebreak\s*-->/g,
