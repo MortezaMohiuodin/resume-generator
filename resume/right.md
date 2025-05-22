@@ -20,6 +20,8 @@ regular pair programming, training sessions and code reviews.
 - Implemented a monorepo structure for code sharing and
 consistency
 
+<!--pagebreak-->
+
 ### Frontend Developer — **Mom Fertility Center**
 
 July 2020 - Apr 2021 

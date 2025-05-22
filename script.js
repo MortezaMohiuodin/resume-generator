@@ -32,7 +32,7 @@ function initDownloadButton() {
     // clone to modify temporary version
     const clonedResume = resume.cloneNode(true);
     clonedResume.style.margin = "0";
-    clonedResume.style.padding = "20px";
+    clonedResume.style.padding = "20px 40px";
     clonedResume.style.background = "white";
     clonedResume.style.boxShadow = "none";
     clonedResume.style.maxWidth = "100%";
