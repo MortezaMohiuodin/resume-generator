@@ -15,14 +15,15 @@ function initDownloadButton() {
       filename: "resume.pdf",
       image: { type: "jpeg", quality: 0.98 },
       html2canvas: {
+        background: "#e4e4e4",
         scale: 2,
         useCORS: true,
-        scrollY: 0,
-        scrollX: 0,
+        scrollY: -50,
+        scrollX: -20,
         windowWidth: document.body.scrollWidth,
         windowHeight: document.body.scrollHeight,
       },
-      jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
+      jsPDF: { unit: "mm", format: [220, 298], orientation: "p" },
       pagebreak: {
         mode: ["avoid-all", "css", "legacy"],
         before: ".html2pdf__page-break",
@@ -32,8 +33,8 @@ function initDownloadButton() {
     // clone to modify temporary version
     const clonedResume = resume.cloneNode(true);
     clonedResume.style.margin = "0";
-    clonedResume.style.padding = "20px 40px";
-    clonedResume.style.background = "white";
+    clonedResume.style.padding = "30px 0px 30px 30px";
+    clonedResume.style.background = "#e4e4e4";
     clonedResume.style.boxShadow = "none";
     clonedResume.style.maxWidth = "100%";
     clonedResume.style.width = "100%";

@@ -1,6 +1,8 @@
 
   .page {
     margin-bottom: 40px;
+    background-color: #e4e4e4;
+    padding: 40px 30px 40px 30px;
   }
   
   body {
@@ -12,10 +14,10 @@
   }
   
   #resume {
-    background: white;
+    background: #e4e4e4;
     padding: 20px 45px;
     width: 100%;
-    max-width: 800px;
+    max-width: 710px;
     margin: 0 auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     text-align: left; /* make sure text starts at top */
@@ -99,7 +101,7 @@
   }
 
   hr{
-    border: 3px solid #f0f0f0;
+    border: 3px solid #b1aaaa;
   }
   #left p{
     font-size: 16px;
