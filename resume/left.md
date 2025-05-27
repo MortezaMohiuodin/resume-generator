@@ -1,26 +1,21 @@
 ## Summary
 
-Experienced Frontend Developer with over 6
-years of software development expertise.
-Proficient in building client-side and server-
-side UI's, implementing modular design
-patterns, and skilled in Vue and React.
-Passionate about creating robust and user-
-friendly software solutions. Thriving in an
-agile environment
+I am morteza mohiuodin and I a specialize in making scalable and maintainable ui with vanilla js and js frameworks with of course good old html css.  
+I also have broad knowledge about almost everything in generally software engineering. My ideal working space is where I can code and think quielty most of the time and being engage on building or fixing something and eventually achieving the goal.
+I value every company or group existant as they value society financialy and help society growth so I always try my best for company I am working.
 
 ---
 
 ## Skills
 
-- Html , Css , JS , Typescript
-- Vue , Nuxt , React , Next
-- Tailwind , Sass , BEM
-- Node , Express , GraphQl , Restful Api
-- Vite , Webpack , PWA
+- html , css , js , ecmascript , typescript
+- vue , nuxt , react , next
+- vuetify , elementUi , quasar
+- tailwind , sass 
+- node.js , graphql
+- vite , webpack , pwa
 
----
-
+<!--pagebreak-->
 ## Showcases
 
 - Zireh App  - zirehapp.com 
@@ -29,8 +24,14 @@ agile environment
 - Mom Fertility Center - mom.ir
 - Signal Crm - crm.signal.ir
 - DrSerita - drserita.com
+- Zireh App  - zirehapp.com 
+- Karsu Hr assistant - karsu.ir
+- Honeyland - honey.land
+- Mom Fertility Center - mom.ir
+- Signal Crm - crm.signal.ir
+- DrSerita - drserita.com
+---
 
-<!--pagebreak-->
 
 ## Languages
 - Persian
