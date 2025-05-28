@@ -61,32 +61,27 @@ function initDownloadButton() {
 }
 
 async function loadResume() {
-  const headingResponse = await fetch("resume/heading.md");
-  const leftResponse = await fetch("resume/left.md"); // relative path
-  const rightResponse = await fetch("resume/right.md"); // relative path
+  const response = await fetch("resume/resume.md");
+  const md = await response.text();
 
-  // relative path
-  const headingMd = await headingResponse.text();
-  const leftMd = await leftResponse.text();
-  const rightMd = await rightResponse.text();
+  const headingMatch = md.match(/<!--\s*heading\s*-->([\s\S]*?)<!--/);
+  const leftMatch = md.match(/<!--\s*left\s*-->([\s\S]*?)<!--/);
+  const rightMatch = md.match(/<!--\s*right\s*-->([\s\S]*)/);
 
-  const resumeContainer = document.getElementById("resume");
-  const page = document.createElement("section");
-  const heading = document.querySelector("#heading");
-  const left = document.querySelector("#left");
-  const right = document.querySelector("#right");
+  const heading = headingMatch ? headingMatch[1].trim() : "";
+  const left = leftMatch ? leftMatch[1].trim() : "";
+  const right = rightMatch ? rightMatch[1].trim() : "";
 
-  page.classList.add("page");
-  resumeContainer.appendChild(page);
-  heading.innerHTML = marked.parse(headingMd.trim());
-  left.innerHTML = marked.parse(leftMd.trim());
-  right.innerHTML = marked.parse(rightMd.trim());
+  document.querySelector("#heading").innerHTML = marked.parse(heading);
+  document.querySelector("#left").innerHTML = marked.parse(left);
+  document.querySelector("#right").innerHTML = marked.parse(right);
 
-  const resume = document.getElementById("resume");
-  resume.innerHTML = resume.innerHTML.replace(
-    /<!--\s*pagebreak\s*-->/g,
-    '<div class="html2pdf__page-break"></div>'
-  );
+  document.getElementById("resume").innerHTML = document
+    .getElementById("resume")
+    .innerHTML.replace(
+      /<!--\s*pagebreak\s*-->/g,
+      '<div class="html2pdf__page-break"></div>'
+    );
 }
 
 window.onload = loadResume;
