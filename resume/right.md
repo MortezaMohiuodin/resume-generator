@@ -1,57 +1,53 @@
 ## Experience
 
+### Frontend Developer — **Signal**  
+_Feb 2025 – present_
 
+- Architected and implemented highly dynamic UIs using modern frameworks and component-based architecture.  
+- Spearheaded front-end decisions for a scalable HR SaaS platform, focusing on performance, accessibility, and maintainability.  
+- Integrated real-time notifications and complex form logic using React + Zustand + Formik.  
 
-### Frontend Developer — **Signal**
+---
 
-Feb 2025 - present
+### Frontend Developer — **Qosnalban**  
+_Jun 2024 – Aug 2024_
 
-- Developed fully responsive UI for a human resource management system with automation features.
-- Translated business requirements into robust SaaS software.
+- Delivered a feature-rich HR web portal with custom-built components, including a modular calendar powered by Vue and moment.js.  
+- Led front-end optimization efforts, improving load times and bundle size through strategic code splitting.  
+- Collaborated with backend teams to define a consistent API contract and reduce frontend iteration cycles.  
 
+---
 
-### Frontend Developer — **Qosnalban**
+### Frontend Developer — **Karsu**  
+_Sep 2023 – Feb 2024_
 
-Jun 2024 - Aug 2024
+- Crafted enterprise-grade UI for internal HR systems with advanced filters, data tables, and permission-aware interfaces.  
+- Established reusable design tokens and theming strategy with Tailwind CSS + Vue 3.  
+- Collaborated with QA to set up Cypress tests for critical user flows.  
 
-- Developed fully responsive UI for a human resource management system with automation features.
-- Translated business requirements into robust SaaS software.
-- Created a custom calendar using Vue and moment.js.
+---
 
+### Frontend Developer — **Pioneer Games**  
+_Oct 2021 – Apr 2022_
 
-### Frontend Developer — **Karsu**
+- Built a gamified NFT marketplace with Web3.js, implementing wallet integration and dynamic content rendering.  
+- Worked alongside game designers and blockchain engineers to deliver interactive, animated UI using Canvas/WebGL.  
+- Mentored junior developers, led code reviews, and introduced architectural decisions around state management and component reuse.  
 
-Sep 2023 - Feb 2024
+---
 
-- Developed fully responsive UI for a human resource management system with automation features.
-- Translated business requirements into robust SaaS software.
-<!--pagebreak-->
+### Frontend Developer — **Mom Fertility Center**  
+_July 2021 – Oct 2021_
 
-### Frontend Developer — **Pioneer Games**
+- Designed and developed a mobile-first marketing site for a healthcare provider using Nuxt.js and GSAP for animations.  
+- Overhauled critical SEO and structured data to enhance Google visibility, resulting in a measurable ranking boost.  
+- Integrated booking system frontend with legacy APIs and CMS.  
 
-Oct 2021 - Apr 2022 
+---
 
-- Working closely with UX designers, backend developers, product managers and seo specialists to 
-- Built a marketplace for NFTs crypto tokens using web3 and
-- Mentored an intern and junior engineers by participating in
+### Frontend Developer — **Signal Co**  
+_May 2019 – May 2021_
 
-
-
-### Frontend Developer — **Mom Fertility Center**
-
-July 2021 - Oct 2021
-
-- Design, architect and integrate front-end with CMS, API and
-build systems
-- Resolved critical SEO issues and optimized performance.
-
-### Frontend Developer — **Signal Co**
-
-May 2019 - May 2021
-
-- Collaborated with cross-functional teams to implement pixel-
-perfect and SEO-optimized user interfaces.
-- Updated older website to support responsive behavior and
-Integrate with Wordpress API and various REST endpoints.
-- Mentored junior programmers and organized multiple
-
+- Delivered modular UI components and templates integrated with WordPress REST API and custom ACF fields.  
+- Modernized multiple legacy sites with responsive layouts, accessibility improvements, and modern JavaScript practices.  
+- Facilitated weekly workshops and mentored junior devs on frontend best practices, code architecture, and tooling.  
