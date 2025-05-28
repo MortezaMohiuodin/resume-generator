@@ -92,8 +92,15 @@
   font-weight: 500;
   display: flex;
   align-content: center;
-  gap: 50px;
+  gap: 10px;
   font-weight: 300;
+  flex-wrap: wrap;
+  justify-content: space-between;
+      font-weight: bold;
+    font-size: 15PX;
+  }
+  
+  #heading ul li{
   }
   #heading ul a {
     color: #222;
