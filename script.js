@@ -18,8 +18,8 @@ function initDownloadButton() {
         background: "#ddd",
         scale: 2,
         useCORS: true,
-        scrollY: -50,
-        scrollX: -20,
+        scrollY: 0,
+        scrollX: 0,
         windowWidth: document.body.scrollWidth,
         windowHeight: document.body.scrollHeight,
       },
@@ -33,10 +33,10 @@ function initDownloadButton() {
     // clone to modify temporary version
     const clonedResume = resume.cloneNode(true);
     clonedResume.style.margin = "0";
-    clonedResume.style.padding = "30px 0px 30px 30px";
-    clonedResume.style.background = "#e4e4e4";
+    clonedResume.style.padding = "30px 40px 30px 40px";
+    clonedResume.style.background = "#ddd";
     clonedResume.style.boxShadow = "none";
-    clonedResume.style.maxWidth = "100%";
+    clonedResume.style.maxWidth = "755px";
     clonedResume.style.width = "100%";
     clonedResume.style.height = "auto";
 

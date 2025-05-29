@@ -1,8 +1,6 @@
 
   .page {
-    margin-bottom: 40px;
     background-color: #ddd;
-    padding: 40px 30px 40px 30px;
   }
   p{
     margin: 5px 0;
@@ -17,14 +15,14 @@
   
   #resume {
     background: #ddd;
-    padding: 20px 45px;
+    padding: 30px 40px;
     width: 100%;
-    max-width: 710px;
+    max-width: 755px;
     margin: 0 auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     text-align: left; /* make sure text starts at top */
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   .page-break {
@@ -33,7 +31,7 @@
     break-before: page;
   }
   h1 {
-  margin-top: 1.7rem;
+  margin-top: 0rem;
   letter-spacing: 0px;
   font-weight: 400;
   font-size: 1.6rem;
