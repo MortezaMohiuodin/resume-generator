@@ -12,45 +12,22 @@
 
 <!-- left -->
 
-## Summary
-I am morteza mohiuodin and I a specialize in making scalable and maintainable ui with vanilla js and js frameworks with of course good old html css.  
-I also have broad knowledge about almost everything in generally software engineering. My ideal working space is where I can code and think quielty most of the time and being engage on building or fixing something and eventually achieving the goal.
-I value every company or group existant as they value society financialy and help society growth so I always try my best for company I am working.
+## About me
+I'm Morteza Mohiuddin, a frontend developer specializing in building scalable and maintainable UIs using vanilla JavaScript, modern JS frameworks, and, of course, HTML and CSS.
 
----
+I have a broad understanding of software engineering principles and enjoy working in focused environments where I can think, code, and solve problems. I'm driven by building and improving systems to help achieve meaningful goals.
+
 
 ## Skills
 
 - html , css , js , ecmascript , typescript
 - vue , nuxt , react , next
-- vuetify , elementUi , quasar
-- tailwind , sass 
-- node.js , graphql
-- vite , webpack , pwa
-
-## Showcases
-
-- Zireh App  - zirehapp.com 
-- Karsu Hr assistant - karsu.ir
-- Honeyland - honey.land
-- Mom Fertility Center - mom.ir
-- Signal Crm - crm.signal.ir
-- DrSerita - drserita.com
-- Zireh App  - zirehapp.com 
-- Karsu Hr assistant - karsu.ir
-- Honeyland - honey.land
-- Mom Fertility Center - mom.ir
-- Signal Crm - crm.signal.ir
-- DrSerita - drserita.com
----
-
+- vuetify , elementUi , quasar , tailwind , sass 
+- node.js , graphql , vite , webpack , pwa
 
 ## Languages
-- Persian
-- English  
-- Arabic
+Persian / English / Arabic
 
----
 
 ## Education
 - Qom University of Technology
@@ -76,7 +53,7 @@ _Jun 2024 – Aug 2024_
 - Led front-end optimization efforts, improving load times and bundle size through strategic code splitting.  
 - Collaborated with backend teams to define a consistent API contract and reduce frontend iteration cycles.  
 
----
+<!--pagebreak-->
 
 ### Frontend Developer — **Karsu**  
 _Sep 2023 – Feb 2024_
@@ -103,11 +80,4 @@ _July 2021 – Oct 2021_
 - Overhauled critical SEO and structured data to enhance Google visibility, resulting in a measurable ranking boost.  
 - Integrated booking system frontend with legacy APIs and CMS.  
 
----
 
-### Frontend Developer — **Signal Co**  
-_May 2019 – May 2021_
-
-- Delivered modular UI components and templates integrated with WordPress REST API and custom ACF fields.  
-- Modernized multiple legacy sites with responsive layouts, accessibility improvements, and modern JavaScript practices.  
-- Facilitated weekly workshops and mentored junior devs on frontend best practices, code architecture, and tooling.  

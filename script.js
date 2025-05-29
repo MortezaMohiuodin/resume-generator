@@ -15,7 +15,7 @@ function initDownloadButton() {
       filename: "resume.pdf",
       image: { type: "jpeg", quality: 0.98 },
       html2canvas: {
-        background: "#e4e4e4",
+        background: "#ddd",
         scale: 2,
         useCORS: true,
         scrollY: -50,
