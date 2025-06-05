@@ -11,13 +11,25 @@
 ---
 
 <!-- left -->
+# Morteza Mohiuodin
+#### Frontend Developer 
+
+---
+
+## Contact
+- icon-phone  98-901-943-7835 
+- icon-email  mortezamohiuodin@gmail.com 
+- icon-home Qom, Iran 
+- icon-linkdin to/mortezamohiuodin 
+
+---
 
 ## About me
 I'm Morteza Mohiuddin, a frontend developer specializing in building scalable and maintainable UIs using vanilla JavaScript, modern JS frameworks, and, of course, HTML and CSS.
 
 I have a broad understanding of software engineering principles and enjoy working in focused environments where I can think, code, and solve problems. I'm driven by building and improving systems to help achieve meaningful goals.
 
-
+---
 ## Skills
 
 - html , css , js , ecmascript , typescript
@@ -25,13 +37,15 @@ I have a broad understanding of software engineering principles and enjoy workin
 - vuetify , elementUi , quasar , tailwind , sass 
 - node.js , graphql , vite , webpack , pwa
 
-## Languages
-Persian / English / Arabic
-
+---
 
 ## Education
+- Mechanical Engineering 
 - Qom University of Technology
-- Mechanical Engineering (Bachelor's degree)  
+- Bachelor's degree
+
+Persian - English - Arabic
+
 
 <!-- right -->
 
@@ -44,7 +58,6 @@ _Feb 2025 – present_
 - Spearheaded front-end decisions for a scalable HR SaaS platform, focusing on performance, accessibility, and maintainability.  
 - Integrated real-time notifications and complex form logic using React + Zustand + Formik.  
 
----
 
 ### Frontend Developer — **Qosnalban**  
 _Jun 2024 – Aug 2024_
@@ -62,7 +75,6 @@ _Sep 2023 – Feb 2024_
 - Established reusable design tokens and theming strategy with Tailwind CSS + Vue 3.  
 - Collaborated with QA to set up Cypress tests for critical user flows.  
 
----
 
 ### Frontend Developer — **Pioneer Games**  
 _Oct 2021 – Apr 2022_
@@ -71,7 +83,6 @@ _Oct 2021 – Apr 2022_
 - Worked alongside game designers and blockchain engineers to deliver interactive, animated UI using Canvas/WebGL.  
 - Mentored junior developers, led code reviews, and introduced architectural decisions around state management and component reuse.  
 
----
 
 ### Frontend Developer — **Mom Fertility Center**  
 _July 2021 – Oct 2021_

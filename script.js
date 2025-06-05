@@ -34,7 +34,7 @@ function initDownloadButton() {
     const clonedResume = resume.cloneNode(true);
     clonedResume.style.margin = "0";
     clonedResume.style.padding = "30px 40px 30px 40px";
-    clonedResume.style.background = "#ddd";
+    clonedResume.style.background = "#f6f6f6";
     clonedResume.style.boxShadow = "none";
     clonedResume.style.maxWidth = "755px";
     clonedResume.style.width = "100%";
@@ -72,7 +72,7 @@ async function loadResume() {
   const left = leftMatch ? leftMatch[1].trim() : "";
   const right = rightMatch ? rightMatch[1].trim() : "";
 
-  document.querySelector("#heading").innerHTML = marked.parse(heading);
+  // document.querySelector("#heading").innerHTML = marked.parse(heading);
   document.querySelector("#left").innerHTML = marked.parse(left);
   document.querySelector("#right").innerHTML = marked.parse(right);
 
@@ -82,6 +82,19 @@ async function loadResume() {
       /<!--\s*pagebreak\s*-->/g,
       '<div class="html2pdf__page-break"></div>'
     );
+
+  document.getElementById("resume").innerHTML = document
+    .getElementById("resume")
+    .innerHTML.replace(/icon-phone/g, '<i class="icon icon-phone"></i>');
+  document.getElementById("resume").innerHTML = document
+    .getElementById("resume")
+    .innerHTML.replace(/icon-linkdin/g, '<i class="icon icon-linkedin"></i>');
+  document.getElementById("resume").innerHTML = document
+    .getElementById("resume")
+    .innerHTML.replace(/icon-email/g, '<i class="icon icon-email"></i>');
+  document.getElementById("resume").innerHTML = document
+    .getElementById("resume")
+    .innerHTML.replace(/icon-home/g, '<i class="icon icon-home"></i>');
 }
 
 window.onload = loadResume;
