@@ -66,7 +66,7 @@ _Jun 2024 – Aug 2024_
 - Led front-end optimization efforts, improving load times and bundle size through strategic code splitting.  
 - Collaborated with backend teams to define a consistent API contract and reduce frontend iteration cycles.  
 
-<!--pagebreak-->
+
 
 ### Frontend Developer — **Karsu**  
 _Sep 2023 – Feb 2024_
@@ -75,7 +75,7 @@ _Sep 2023 – Feb 2024_
 - Established reusable design tokens and theming strategy with Tailwind CSS + Vue 3.  
 - Collaborated with QA to set up Cypress tests for critical user flows.  
 
-
+<!--pagebreak-->
 ### Frontend Developer — **Pioneer Games**  
 _Oct 2021 – Apr 2022_
 
