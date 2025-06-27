@@ -8,7 +8,7 @@
     margin: 5px 0;
   }
   body {
-    font-family: Roboto , Arial, sans-serif;
+    font-family: "Playfair Display" , Arial, sans-serif;
     background: #f0f0f0;
     color: #333;
     margin: 0;
@@ -42,18 +42,23 @@
     line-height: 44px;
     font-family: serif;
     font-weight: 500;
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 5px;
   }
   
   h2 {
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     font-size: 1.1rem;
     letter-spacing: 3px;
-    margin-top: 20px;
+    margin-top: 10px;
         font-weight: bold;
     color: #7d7c7c;
-    font-size: 18px;
+    font-size: 16px;
+  margin-bottom: 5px;
   }
   
   ul {
@@ -129,7 +134,7 @@
   }
   #left{
         flex-basis: 270px;
-    border-right: 3px solid #cfc8c8;
+    /* border-right: 4px solid #dedede; */
     padding: 0 15px;
   }
 
@@ -137,9 +142,10 @@
         text-transform: uppercase;
     font-weight: 400;
     font-size: 16px;
-    text-align: center;
-      text-align: center;
-    margin-top: 15px;
+      text-align: left;
+    margin-top: 10px;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
   }
   #right{
         padding: 0 15px;
@@ -160,12 +166,12 @@
     list-style: none;
   margin-left: 0;
   padding-left: 0;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-top: 10px;
   }
   #left ul li {
-    padding-top:7px;
-    padding-bottom: 7px;
+    padding-top:4px;
+    padding-bottom: 4px;
     display: flex;
     align-items: center;
     gap: 13px;

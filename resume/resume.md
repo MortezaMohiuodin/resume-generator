@@ -8,13 +8,11 @@
 - Telegram : @Mmirav 
 
 
----
 
 <!-- left -->
 # Morteza Mohiuodin
 #### Frontend Developer 
 
----
 
 ## Contact
 - icon-phone  98-901-943-7835 
@@ -22,14 +20,12 @@
 - icon-home Qom, Iran 
 - icon-linkdin to/mortezamohiuodin 
 
----
 
 ## About me
 I'm Morteza Mohiuddin, a frontend developer specializing in building scalable and maintainable UIs using vanilla JavaScript, modern JS frameworks, and, of course, HTML and CSS.
 
 I have a broad understanding of software engineering principles and enjoy working in focused environments where I can think, code, and solve problems. I'm driven by building and improving systems to help achieve meaningful goals.
 
----
 ## Skills
 
 - html , css , js , ecmascript , typescript
@@ -37,7 +33,6 @@ I have a broad understanding of software engineering principles and enjoy workin
 - vuetify , elementUi , quasar , tailwind , sass 
 - node.js , graphql , vite , webpack , pwa
 
----
 
 ## Education
 - Mechanical Engineering 
