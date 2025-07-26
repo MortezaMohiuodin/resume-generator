@@ -1,11 +1,3 @@
-(function loadHtml2Pdf() {
-  const script = document.createElement("script");
-  script.src =
-    "https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js";
-  script.onload = initDownloadButton;
-  document.body.appendChild(script);
-})();
-
 function initDownloadButton() {
   document.getElementById("downloadBtn").addEventListener("click", () => {
     const resume = document.getElementById("resume");
@@ -83,6 +75,10 @@ async function loadResume() {
       '<div class="html2pdf__page-break"></div>'
     );
 
+  loadIcons();
+}
+
+function loadIcons() {
   document.getElementById("resume").innerHTML = document
     .getElementById("resume")
     .innerHTML.replace(/icon-phone/g, '<i class="icon icon-phone"></i>');
@@ -97,4 +93,9 @@ async function loadResume() {
     .innerHTML.replace(/icon-home/g, '<i class="icon icon-home"></i>');
 }
 
-window.onload = loadResume;
+window.onload = initResume;
+
+function initResume() {
+  loadResume();
+  initDownloadButton();
+}
