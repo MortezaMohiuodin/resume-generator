@@ -1,5 +1,36 @@
+@font-face {
+  font-family: IranYekan;
+  font-style: normal;
+  font-weight: light;
+  font-display: swap;
+  src: url('./fonts/IranYekan/IRANYekanLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: IranYekan;
+  font-style: normal;
+  font-weight: normal; 
+  font-display: swap;
+  src: url('./fonts/IranYekan/IRANYekanRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IranYekan;
+  font-style: normal;
+  font-weight: bold; 
+  font-display: swap;
+  src: url('./fonts/IranYekan/IRANYekanBold.ttf') format('truetype');
+}
+
 :root {
   --bg: #f6f6f6;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+  color: #333;
+  font-family: "Playfair Display", Arial, sans-serif;
 }
 
 .layout {
@@ -11,29 +42,14 @@
   background-color: var(--bg);
 }
 
-p {
-  margin: 5px 0;
-}
-
-body {
-  font-family: "Playfair Display", Arial, sans-serif;
-  background: #f0f0f0;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
-
 #resume {
   background: var(--bg);
   padding: 30px 40px;
   width: 100%;
   max-width: 755px;
-  margin: 0 auto;
+  margin: 20px auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: left;
-  /* make sure text starts at top */
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .page-break {
@@ -42,16 +58,14 @@ body {
   break-before: page;
 }
 
+p {
+  margin: 5px 0;
+}
+
 h1 {
-  margin-top: 0rem;
-  letter-spacing: 0px;
-  font-size: 1.6rem;
-  font-size: 3rem;
-  margin-bottom: 0;
-  text-align: center;
-  line-height: 44px;
+  margin: 0 0 0;
   font-family: serif;
-  font-weight: 500;
+  text-align: center;
   font-size: 2.8rem;
   font-weight: 600;
   line-height: 40px;
@@ -59,16 +73,29 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 10px;
-  text-align: left;
-  text-transform: uppercase;
-  font-size: 1.1rem;
-  letter-spacing: 3px;
-  margin-top: 10px;
-  font-weight: bold;
-  color: #7d7c7c;
+  margin: 10px 0 5px;
   font-size: 16px;
-  margin-bottom: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #7d7c7c;
+  text-align: left;
+}
+
+h3 {
+  margin: 5px 0;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 10px 0 20px;
+  text-align: left;
 }
 
 ul {
@@ -76,119 +103,90 @@ ul {
 }
 
 hr {
-  margin: 20px 0;
+  margin: 15px 0;
+  border: 3px solid #dedede;
+}
+
+em {
+  display: inline-block;
+  margin-bottom: 7px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
 }
 
 #downloadBtn {
   display: block;
-  margin: 40px auto 0;
-  padding: 12px 24px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 6px;
   position: fixed;
   top: 10px;
   right: 10px;
+  margin: 40px auto 0;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
 #downloadBtn:hover {
   background-color: #0056b3;
 }
 
-h3 {
-  font-weight: 500;
-  margin: 5px 0;
-  font-size: 17px;
-  color: #000;
-}
-
 .heading p {
-  margin-top: 10px;
+  margin: -7px 0 15px;
   font-size: 1.5rem;
-  color: #222;
   font-weight: 100;
   letter-spacing: 12px;
-  padding-left: 0;
-  margin-top: -7px;
-  margin-bottom: 15px;
+  color: #222;
 }
 
 .heading ul {
-  font-size: 1rem;
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0;
-  font-weight: 500;
   display: flex;
-  align-content: center;
-  gap: 10px;
-  font-weight: 300;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-content: center;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
   font-weight: 500;
-  font-size: 14PX;
+  color: #222;
 }
-
 
 .heading ul a {
-  color: #222;
+  color: inherit;
   text-decoration: none;
-}
-
-hr {
-  border: 3px solid #dedede;
-  margin: 15px 0px;
 }
 
 #left {
   flex-basis: 270px;
-  /* border-right: 4px solid #dedede; */
   padding: 0 15px;
 }
 
-#left h4 {
-  text-transform: uppercase;
-  font-weight: 400;
+#left > p {
+  margin: 5px 0;
   font-size: 16px;
-  text-align: left;
-  margin-top: 10px;
-  letter-spacing: 4px;
-  margin-bottom: 20px;
-}
-
-#right {
-  padding: 0 15px;
-  flex: 1;
-}
-
-#left>p {
-  font-size: 16px;
-  max-width: 280px;
-  line-height: 27px;
-  font-weight: 400;
   line-height: 22px;
+  font-weight: 400;
   text-align: left;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  max-width: 280px;
 }
 
 #left ul {
   list-style: none;
-  margin-left: 0;
-  padding-left: 0;
+  margin: 10px 0 0;
+  padding: 0;
   font-size: 1rem;
-  margin-top: 10px;
 }
 
 #left ul li {
-  padding-top: 4px;
-  padding-bottom: 4px;
   display: flex;
   align-items: center;
   gap: 13px;
+  padding: 4px 0;
   font-size: 16px;
   font-weight: 500;
   color: gray;
@@ -199,34 +197,41 @@ hr {
   text-decoration: none;
 }
 
+#right {
+  flex: 1;
+  padding: 0 15px;
+}
+
 #right h2 {
   text-align: left;
 }
 
 #right ul {
   max-width: 370px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-
-em {
-  font-weight: 500;
-  font-size: 15px;
-  color: #000;
-  margin-bottom: 7px;
-  display: inline-block;
+  margin: 5px 0 20px;
+  padding: 0 0 0 20px;
 }
 
 #right ul li {
-  padding-top: 2px;
-  padding-bottom: 2px;
-  line-height: 1.6rem;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0;
+  padding: 2px 0;
   line-height: 22px;
 }
 
 .icon {
   font-size: 1.4rem;
   color: #222;
+}
+
+.rtl body{
+  font-family: 'IranYekan', Helvetica, sans-serif;
+}
+.rtl h1{
+  font-family: 'IranYekan', Helvetica, sans-serif;
+}
+.rtl p,.rtl ul,.rtl h2,.rtl h3{
+  text-align: right!important;
+}
+.rtl ul{
+    padding: 0 20px 0 0px!important;
 }

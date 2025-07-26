@@ -1,14 +1,3 @@
-<!-- heading -->
-
-# Morteza Mohiuodin
-**Frontend Developer**  
-- Phone : +989019437835 
-- Linkdin : in/mortezamohiuodin 
-- Email : mortezamohiuodin@gmail.com 
-- Telegram : @Mmirav 
-
-
-
 <!-- left -->
 # Morteza Mohiuodin
 #### Frontend Developer 

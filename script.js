@@ -53,7 +53,12 @@ function initDownloadButton() {
 }
 
 async function loadResume() {
-  const response = await fetch("resume/resume.md");
+  const lang = document.querySelector("html").getAttribute("lang");
+  let resumePath = "resume/resume.md";
+  if (lang == "fa") {
+    resumePath = "resume/resume-fa.md";
+  }
+  const response = await fetch(resumePath);
   const md = await response.text();
 
   const headingMatch = md.match(/<!--\s*heading\s*-->([\s\S]*?)<!--/);
