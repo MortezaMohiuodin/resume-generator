@@ -4,7 +4,7 @@
 
 
 ## Contact
-- icon-phone  98-901-943-7835 
+- icon-phone  +98-901-943-7835 
 - icon-email  mortezamohiuodin@gmail.com 
 - icon-home Qom, Iran 
 - icon-linkdin to/mortezamohiuodin 
@@ -36,7 +36,7 @@ Persian - English - Arabic
 ## Experience
 
 ### Frontend Developer — **Signal**  
-_Feb 2025 – present_
+_Feb 2025 – May 2025_
 
 - Architected and implemented highly dynamic UIs using modern frameworks and component-based architecture.  
 - Spearheaded front-end decisions for a scalable HR SaaS platform, focusing on performance, accessibility, and maintainability.  
@@ -44,7 +44,7 @@ _Feb 2025 – present_
 
 
 ### Frontend Developer — **Qosnalban**  
-_Jun 2024 – Aug 2024_
+_Jun 2024 – Sep 2024_
 
 - Delivered a feature-rich HR web portal with custom-built components, including a modular calendar powered by Vue and moment.js.  
 - Led front-end optimization efforts, improving load times and bundle size through strategic code splitting.  
@@ -53,7 +53,7 @@ _Jun 2024 – Aug 2024_
 
 
 ### Frontend Developer — **Karsu**  
-_Sep 2023 – Feb 2024_
+_May 2023 – Feb 2024_
 
 - Crafted enterprise-grade UI for internal HR systems with advanced filters, data tables, and permission-aware interfaces.  
 - Established reusable design tokens and theming strategy with Tailwind CSS + Vue 3.  
@@ -61,7 +61,7 @@ _Sep 2023 – Feb 2024_
 
 <!--pagebreak-->
 ### Frontend Developer — **Pioneer Games**  
-_Oct 2021 – Apr 2022_
+_Dec 2021 – July 2022_
 
 - Built a gamified NFT marketplace with Web3.js, implementing wallet integration and dynamic content rendering.  
 - Worked alongside game designers and blockchain engineers to deliver interactive, animated UI using Canvas/WebGL.  
@@ -69,10 +69,23 @@ _Oct 2021 – Apr 2022_
 
 
 ### Frontend Developer — **Mom Fertility Center**  
-_July 2021 – Oct 2021_
+_Sep 2021 – Dec 2021_
+ 
+- Designed and developed a mobile-first marketing site for a healthcare provider using Nuxt.js and GSAP for animations.  
+- Overhauled critical SEO and structured data to enhance Google visibility, resulting in a measurable ranking boost.  
+- Integrated booking system frontend with legacy APIs and CMS.  
 
+### Frontend Developer — **Signal Co**  
+_Oct 2019 – July 2021_  
+ 
 - Designed and developed a mobile-first marketing site for a healthcare provider using Nuxt.js and GSAP for animations.  
 - Overhauled critical SEO and structured data to enhance Google visibility, resulting in a measurable ranking boost.  
 - Integrated booking system frontend with legacy APIs and CMS.  
 
 
+### Frontend Developer — **Tipsy**  
+_July 2018 – Oct 2019_
+ 
+- Designed and developed a mobile-first marketing site for a healthcare provider using Nuxt.js and GSAP for animations.  
+- Overhauled critical SEO and structured data to enhance Google visibility, resulting in a measurable ranking boost.  
+- Integrated booking system frontend with legacy APIs and CMS.  
