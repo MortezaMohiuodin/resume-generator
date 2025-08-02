@@ -1,0 +1,54 @@
+ body{
+  font-family: 'IranYekan', Helvetica, sans-serif;
+}
+ h1{
+  font-family: 'IranYekan', Helvetica, sans-serif;
+}
+ p, ul, h2, h3{
+  text-align: right!important;
+}
+
+
+#left h1{
+        font-size: 32px;
+    letter-spacing: initial;
+}
+ h2{
+    letter-spacing: initial!important;
+        font-weight: bold;
+    color: #0e0e0e;
+    font-size: 15px;
+}
+#left p strong {
+        margin-top: 10px;
+    text-align: center !important;
+    display: block;
+}
+#left p {
+    line-height: 24px;
+    font-size: 14px;
+}
+#left  ul  {
+    text-align: left !important;
+    direction: ltr;
+    margin: 10px 0 0;
+    padding: 0 0px 0 10px!important;
+    line-height: 22px;
+}
+#left ul li {
+    flex-direction: row-reverse;
+}
+#right ul {
+    margin: 5px 20px 0px 0px;
+    padding: 0 20px 0 0px;
+    font-size: 15px;
+    list-style: none;
+}
+#right ul li {
+    line-height: 24px;
+    font-size: 15px;
+}
+#right h3{
+    font-size: 14px;
+    font-weight: bold;
+}

@@ -223,15 +223,3 @@ em {
   color: #222;
 }
 
-.rtl body{
-  font-family: 'IranYekan', Helvetica, sans-serif;
-}
-.rtl h1{
-  font-family: 'IranYekan', Helvetica, sans-serif;
-}
-.rtl p,.rtl ul,.rtl h2,.rtl h3{
-  text-align: right!important;
-}
-.rtl ul{
-    padding: 0 20px 0 0px!important;
-}
